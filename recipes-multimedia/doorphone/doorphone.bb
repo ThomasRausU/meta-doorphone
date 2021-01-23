@@ -15,7 +15,8 @@ DEPENDS = "linphonec \
 		   alsa-utils \
 		   htop \
 		   rpi-gpio\
-		   python3-pip"                                                                                                                                                                                                                                                       
+		   python3-pip \
+		   espeak"                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                         
 
 inherit update-rc.d

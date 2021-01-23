@@ -11,6 +11,9 @@ echocancellation=1
 ec_delay=200
 ec_tail_len=150
 ec_framesize=128
+noisegate=1
+el_type=mic
+speaker_agc_enabled=1
 
 [net]
 nat_policy_ref=-JhD1ijT27xUUcZ
@@ -43,7 +46,7 @@ uuid=66ac28c2-5e31-007a-a736-a91a1508e330
 user_certificates_path=/home/root/.linphone-usr-crt
 
 [video]
-capture=0
+capture=1
 display=0
 show_local=0
 # size=720p
@@ -62,7 +65,6 @@ video_adaptive_jitt_comp_enabled=1
 [audio_codec_0]
 mime=opus
 rate=48000
-# channels=2
 channels=2
 enabled=16
 
